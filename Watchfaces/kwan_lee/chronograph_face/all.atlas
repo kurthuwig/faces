@@ -1,0 +1,61 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+clockface
+  rotate: false
+  xy: 0, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+backdrop
+  rotate: false
+  xy: 240, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+second_hand
+  rotate: false
+  xy: 480, 101
+  size: 11, 139
+  orig: 11, 139
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 491, 130
+  size: 13, 110
+  orig: 13, 110
+  offset: 0, 0
+  index: -1
+minute_hand_backdrop
+  rotate: false
+  xy: 504, 130
+  size: 13, 110
+  orig: 13, 110
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 517, 158
+  size: 17, 82
+  orig: 17, 82
+  offset: 0, 0
+  index: -1
+hour_hand_backdrop
+  rotate: false
+  xy: 534, 158
+  size: 17, 82
+  orig: 17, 82
+  offset: 0, 0
+  index: -1
+small_hand
+  rotate: false
+  xy: 480, 66
+  size: 11, 35
+  orig: 11, 35
+  offset: 0, 0
+  index: -1

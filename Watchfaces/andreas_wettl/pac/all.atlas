@@ -1,0 +1,61 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 16
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+half_disc
+  rotate: false
+  xy: 240, 48
+  size: 104, 208
+  orig: 104, 208
+  offset: 0, 0
+  index: -1
+pellets
+  rotate: false
+  xy: 344, 59
+  size: 100, 197
+  orig: 100, 197
+  offset: 0, 0
+  index: 0
+pellets
+  rotate: false
+  xy: 444, 59
+  size: 100, 197
+  orig: 100, 197
+  offset: 0, 0
+  index: 1
+font
+  rotate: false
+  xy: 544, 0
+  size: 29, 256
+  orig: 29, 256
+  offset: 0, 0
+  index: -1
+pacsec
+  rotate: false
+  xy: 240, 20
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+pacsec
+  rotate: false
+  xy: 573, 228
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 1
+blue_ghost
+  rotate: false
+  xy: 268, 31
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1

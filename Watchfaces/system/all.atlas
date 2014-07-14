@@ -1,0 +1,33 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fonts
+  rotate: false
+  xy: 0, 0
+  size: 347, 256
+  orig: 347, 256
+  offset: 0, 0
+  index: -1
+horizontalArrow
+  rotate: true
+  xy: 347, 56
+  size: 200, 35
+  orig: 200, 35
+  offset: 0, 0
+  index: -1
+verticalArrow
+  rotate: false
+  xy: 382, 56
+  size: 35, 200
+  orig: 35, 200
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 347, 55
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

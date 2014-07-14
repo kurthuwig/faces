@@ -1,0 +1,47 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 16
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+second_hand
+  rotate: false
+  xy: 240, 130
+  size: 24, 126
+  orig: 24, 126
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 264, 146
+  size: 32, 110
+  orig: 32, 110
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 296, 154
+  size: 40, 102
+  orig: 40, 102
+  offset: 0, 0
+  index: -1
+date_digits
+  rotate: false
+  xy: 0, 5
+  size: 80, 11
+  orig: 80, 11
+  offset: 0, 0
+  index: -1
+battery_status
+  rotate: false
+  xy: 80, 0
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1

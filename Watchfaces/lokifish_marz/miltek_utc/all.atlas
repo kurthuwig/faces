@@ -1,0 +1,75 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+utc_hand
+  rotate: false
+  xy: 240, 140
+  size: 22, 100
+  orig: 22, 100
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 240, 40
+  size: 19, 100
+  orig: 19, 100
+  offset: 0, 0
+  index: -1
+second_hand
+  rotate: false
+  xy: 262, 140
+  size: 2, 100
+  orig: 2, 100
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 264, 180
+  size: 17, 60
+  orig: 17, 60
+  offset: 0, 0
+  index: -1
+call
+  rotate: false
+  xy: 281, 213
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+texts
+  rotate: false
+  xy: 281, 189
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+email
+  rotate: false
+  xy: 312, 221
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+calendar
+  rotate: false
+  xy: 340, 220
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+alarm
+  rotate: false
+  xy: 240, 20
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1

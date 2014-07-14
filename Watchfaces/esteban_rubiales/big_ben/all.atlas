@@ -1,0 +1,33 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 13
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+dejavu-sans-14-digits
+  rotate: false
+  xy: 0, 0
+  size: 94, 13
+  orig: 94, 13
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 240, 161
+  size: 12, 92
+  orig: 12, 92
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 240, 93
+  size: 10, 68
+  orig: 10, 68
+  offset: 0, 0
+  index: -1

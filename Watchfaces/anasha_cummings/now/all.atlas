@@ -1,0 +1,26 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+border
+  rotate: false
+  xy: 1, 3
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+now
+  rotate: false
+  xy: 243, 183
+  size: 225, 60
+  orig: 225, 60
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 243, 1
+  size: 18, 180
+  orig: 18, 180
+  offset: 0, 0
+  index: -1

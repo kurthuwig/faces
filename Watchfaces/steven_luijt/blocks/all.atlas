@@ -1,0 +1,26 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 56
+  size: 216, 200
+  orig: 216, 200
+  offset: 0, 0
+  index: -1
+font
+  rotate: false
+  xy: 216, 0
+  size: 16, 256
+  orig: 16, 256
+  offset: 0, 0
+  index: -1
+block
+  rotate: false
+  xy: 0, 41
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1

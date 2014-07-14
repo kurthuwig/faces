@@ -1,0 +1,94 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+clockface
+  rotate: false
+  xy: 1, 15
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Date_icon_0to9
+  rotate: false
+  xy: 1, 1
+  size: 100, 12
+  orig: 100, 12
+  offset: 0, 0
+  index: -1
+second_hand
+  rotate: false
+  xy: 243, 97
+  size: 13, 158
+  orig: 13, 158
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 258, 156
+  size: 14, 99
+  orig: 14, 99
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 274, 191
+  size: 15, 64
+  orig: 15, 64
+  offset: 0, 0
+  index: -1
+Signal_hand_level
+  rotate: false
+  xy: 243, 46
+  size: 8, 49
+  orig: 8, 49
+  offset: 0, 0
+  index: -1
+Battery_hand_level
+  rotate: false
+  xy: 258, 121
+  size: 11, 33
+  orig: 11, 33
+  offset: 0, 0
+  index: -1
+AlarmClock_hand_hour
+  rotate: false
+  xy: 274, 157
+  size: 8, 32
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+
+wallpaper.jpg
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wallpaper
+  rotate: false
+  xy: 0, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 0
+wallpaper
+  rotate: false
+  xy: 240, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 1
+wallpaper
+  rotate: false
+  xy: 0, 240
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 2
+wallpaper
+  rotate: false
+  xy: 240, 240
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 3

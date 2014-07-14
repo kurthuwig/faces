@@ -1,0 +1,47 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+arial-digits
+  rotate: false
+  xy: 1, 98
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+arial-text
+  rotate: false
+  xy: 1, 32
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+icon_kamera
+  rotate: false
+  xy: 259, 326
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+icon_telefon
+  rotate: false
+  xy: 1, 1
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+icon_email
+  rotate: false
+  xy: 131, 75
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+icon_battery
+  rotate: false
+  xy: 259, 316
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1

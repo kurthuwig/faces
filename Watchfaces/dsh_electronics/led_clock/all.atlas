@@ -1,0 +1,54 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+digits_hour_minute
+  rotate: false
+  xy: 0, 178
+  size: 450, 62
+  orig: 450, 62
+  offset: 0, 0
+  index: -1
+digits_second
+  rotate: false
+  xy: 0, 127
+  size: 370, 51
+  orig: 370, 51
+  offset: 0, 0
+  index: -1
+digits_date
+  rotate: false
+  xy: 450, 208
+  size: 230, 32
+  orig: 230, 32
+  offset: 0, 0
+  index: -1
+halfdisk
+  rotate: false
+  xy: 680, 0
+  size: 126, 240
+  orig: 126, 240
+  offset: 0, 0
+  index: -1
+halfring
+  rotate: false
+  xy: 806, 0
+  size: 126, 240
+  orig: 126, 240
+  offset: 0, 0
+  index: -1
+colon
+  rotate: false
+  xy: 0, 65
+  size: 17, 62
+  orig: 17, 62
+  offset: 0, 0
+  index: -1
+dash
+  rotate: false
+  xy: 370, 172
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1

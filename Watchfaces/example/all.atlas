@@ -1,0 +1,96 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+top_layer
+  rotate: false
+  xy: 0, 0
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+bottom_layer
+  rotate: false
+  xy: 244, 0
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 488, 32
+  size: 22, 212
+  orig: 22, 212
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 510, 32
+  size: 22, 212
+  orig: 22, 212
+  offset: 0, 0
+  index: -1
+big_gear
+  rotate: false
+  xy: 532, 128
+  size: 117, 116
+  orig: 117, 116
+  offset: 0, 0
+  index: 0
+big_gear
+  rotate: false
+  xy: 649, 128
+  size: 117, 116
+  orig: 117, 116
+  offset: 0, 0
+  index: 1
+big_gear
+  rotate: false
+  xy: 766, 128
+  size: 117, 116
+  orig: 117, 116
+  offset: 0, 0
+  index: 2
+middle_gear
+  rotate: false
+  xy: 532, 46
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 0
+middle_gear
+  rotate: false
+  xy: 883, 162
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 1
+middle_gear
+  rotate: false
+  xy: 614, 46
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 2
+little_gear
+  rotate: false
+  xy: 965, 188
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 0
+little_gear
+  rotate: false
+  xy: 696, 72
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 1
+little_gear
+  rotate: false
+  xy: 752, 72
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 2

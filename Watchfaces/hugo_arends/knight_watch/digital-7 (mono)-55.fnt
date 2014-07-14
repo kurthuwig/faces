@@ -1,0 +1,17 @@
+info face="digital-7 (mono)" size=55 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=2 padding=0,0,0,0 spacing=0,0
+common lineHeight=30 base=40 scaleW=42 scaleH=256 pages=1 packed=0 alphaChnl=0 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="font.png"
+chars count=12
+char id=32   x=0    y=0    width=0    height=0    xoffset=0    yoffset=0    xadvance=25   page=0    chnl=0
+char id=48   x=21   y=144  width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=49   x=0    y=0    width=4    height=36   xoffset=19   yoffset=4    xadvance=25   page=0    chnl=0
+char id=50   x=4    y=0    width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=51   x=0    y=36   width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=52   x=21   y=36   width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=53   x=0    y=72   width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=54   x=21   y=72   width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=55   x=0    y=108  width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=56   x=21   y=108  width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=57   x=0    y=144  width=21   height=36   xoffset=2    yoffset=4    xadvance=25   page=0    chnl=0
+char id=58   x=25   y=0    width=4    height=20   xoffset=6    yoffset=12   xadvance=15   page=0    chnl=0
+kernings count=0

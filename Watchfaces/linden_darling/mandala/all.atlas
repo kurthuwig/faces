@@ -1,0 +1,75 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+big_hand_shadow
+  rotate: false
+  xy: 240, 20
+  size: 202, 220
+  orig: 202, 220
+  offset: 0, 0
+  index: -1
+big_hand
+  rotate: false
+  xy: 442, 53
+  size: 135, 187
+  orig: 135, 187
+  offset: 0, 0
+  index: -1
+small_hand_shadow
+  rotate: false
+  xy: 577, 86
+  size: 104, 154
+  orig: 104, 154
+  offset: 0, 0
+  index: -1
+small_hand
+  rotate: false
+  xy: 681, 102
+  size: 66, 138
+  orig: 66, 138
+  offset: 0, 0
+  index: -1
+roboto-12-text-digits
+  rotate: false
+  xy: 747, 176
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+roboto-italic-18-digits
+  rotate: false
+  xy: 747, 112
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pettle_alarm
+  rotate: false
+  xy: 875, 185
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+pettle_calendar
+  rotate: false
+  xy: 811, 121
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+count_circle
+  rotate: false
+  xy: 240, 0
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

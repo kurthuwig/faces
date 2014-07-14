@@ -1,0 +1,199 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+markers
+  rotate: false
+  xy: 0, 16
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+font
+  rotate: false
+  xy: 240, 0
+  size: 24, 256
+  orig: 24, 256
+  offset: 0, 0
+  index: -1
+osd
+  rotate: false
+  xy: 264, 211
+  size: 112, 45
+  orig: 112, 45
+  offset: 0, 0
+  index: -1
+hand_second
+  rotate: false
+  xy: 264, 82
+  size: 11, 129
+  orig: 11, 129
+  offset: 0, 0
+  index: -1
+hand_second_shadow
+  rotate: false
+  xy: 275, 82
+  size: 11, 129
+  orig: 11, 129
+  offset: 0, 0
+  index: -1
+hand_minute
+  rotate: false
+  xy: 286, 111
+  size: 23, 100
+  orig: 23, 100
+  offset: 0, 0
+  index: -1
+hand_minute_shadow
+  rotate: false
+  xy: 309, 111
+  size: 23, 100
+  orig: 23, 100
+  offset: 0, 0
+  index: -1
+hand_hour
+  rotate: false
+  xy: 332, 134
+  size: 23, 77
+  orig: 23, 77
+  offset: 0, 0
+  index: -1
+hand_hour_shadow
+  rotate: false
+  xy: 264, 5
+  size: 23, 77
+  orig: 23, 77
+  offset: 0, 0
+  index: -1
+center
+  rotate: false
+  xy: 376, 215
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+signal
+  rotate: false
+  xy: 417, 225
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: 0
+signal
+  rotate: false
+  xy: 448, 225
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: 1
+signal
+  rotate: false
+  xy: 479, 225
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: 2
+center_shadow
+  rotate: false
+  xy: 286, 84
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+signal
+  rotate: false
+  xy: 287, 53
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: 3
+notification_call
+  rotate: false
+  xy: 313, 84
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: 0
+notification_alarm
+  rotate: false
+  xy: 287, 28
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: 0
+notification_call
+  rotate: false
+  xy: 355, 184
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: 1
+notification_sms
+  rotate: false
+  xy: 332, 111
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: 0
+notification_alarm
+  rotate: false
+  xy: 333, 86
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: 1
+notification_sms
+  rotate: false
+  xy: 287, 5
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: 1
+notification_email
+  rotate: false
+  xy: 355, 164
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: 0
+notification_email
+  rotate: false
+  xy: 355, 144
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: 1
+
+wallpaper.jpg
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wallpaper
+  rotate: false
+  xy: 0, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 0
+wallpaper
+  rotate: false
+  xy: 240, 0
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 1
+wallpaper
+  rotate: false
+  xy: 0, 240
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 2
+wallpaper
+  rotate: false
+  xy: 240, 240
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 3

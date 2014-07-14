@@ -1,0 +1,33 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+digital_badge
+  rotate: false
+  xy: 0, 80
+  size: 135, 31
+  orig: 135, 31
+  offset: 0, 0
+  index: -1
+digits-apm
+  rotate: false
+  xy: 0, 16
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 64, 0
+  size: 11, 80
+  orig: 11, 80
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 135, 5
+  size: 11, 106
+  orig: 11, 106
+  offset: 0, 0
+  index: -1

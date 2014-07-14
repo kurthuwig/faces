@@ -1,0 +1,33 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+playfield
+  rotate: false
+  xy: 1, 11
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+digits
+  rotate: false
+  xy: 243, 211
+  size: 352, 40
+  orig: 352, 40
+  offset: 0, 0
+  index: -1
+racket
+  rotate: false
+  xy: 243, 161
+  size: 8, 48
+  orig: 8, 48
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 1, 1
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1

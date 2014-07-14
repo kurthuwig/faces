@@ -1,0 +1,61 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face_casio
+  rotate: false
+  xy: 1, 269
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+face_indigo
+  rotate: false
+  xy: 1, 27
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+face_night
+  rotate: false
+  xy: 243, 269
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+face_red
+  rotate: false
+  xy: 243, 27
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+digits_big
+  rotate: false
+  xy: 485, 462
+  size: 370, 47
+  orig: 370, 47
+  offset: 0, 0
+  index: -1
+digits_medium
+  rotate: false
+  xy: 485, 432
+  size: 230, 28
+  orig: 230, 28
+  offset: 0, 0
+  index: -1
+digits_small
+  rotate: false
+  xy: 1, 1
+  size: 209, 24
+  orig: 209, 24
+  offset: 0, 0
+  index: -1
+colon
+  rotate: false
+  xy: 857, 479
+  size: 11, 30
+  orig: 11, 30
+  offset: 0, 0
+  index: -1

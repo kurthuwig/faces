@@ -1,0 +1,124 @@
+
+all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face
+  rotate: false
+  xy: 0, 15
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+second_hand
+  rotate: false
+  xy: 240, 122
+  size: 8, 133
+  orig: 8, 133
+  offset: 0, 0
+  index: -1
+second_shadow
+  rotate: false
+  xy: 248, 122
+  size: 8, 133
+  orig: 8, 133
+  offset: 0, 0
+  index: -1
+minute_hand
+  rotate: false
+  xy: 256, 143
+  size: 18, 112
+  orig: 18, 112
+  offset: 0, 0
+  index: -1
+minute_shadow
+  rotate: false
+  xy: 274, 143
+  size: 18, 112
+  orig: 18, 112
+  offset: 0, 0
+  index: -1
+hour_hand
+  rotate: false
+  xy: 240, 27
+  size: 8, 95
+  orig: 8, 95
+  offset: 0, 0
+  index: -1
+hour_shadow
+  rotate: false
+  xy: 292, 160
+  size: 8, 95
+  orig: 8, 95
+  offset: 0, 0
+  index: -1
+xess_wifi
+  rotate: false
+  xy: 0, 0
+  size: 9, 15
+  orig: 9, 15
+  offset: 0, 0
+  index: 5
+xess_2g3g
+  rotate: false
+  xy: 256, 128
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: 5
+xess_2g3g
+  rotate: false
+  xy: 248, 107
+  size: 6, 15
+  orig: 6, 15
+  offset: 0, 0
+  index: 1
+xess_wifi
+  rotate: false
+  xy: 292, 145
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 1
+xess_wifi
+  rotate: false
+  xy: 300, 240
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 2
+xess_wifi
+  rotate: false
+  xy: 9, 0
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 3
+xess_wifi
+  rotate: false
+  xy: 264, 128
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 4
+xess_2g3g
+  rotate: false
+  xy: 248, 92
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 2
+xess_2g3g
+  rotate: false
+  xy: 300, 225
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 3
+xess_2g3g
+  rotate: false
+  xy: 305, 240
+  size: 5, 15
+  orig: 5, 15
+  offset: 0, 0
+  index: 4
