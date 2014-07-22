@@ -62,9 +62,10 @@ function update()
     local minute = time:get(Calendar.MINUTE)
     local second = time:get(Calendar.SECOND)
 
+    local isShowSeconds = deviceStatus:isShowSeconds()
     hourTens:setIndex(hour / 10)
     hourOnes:setIndex(hour % 10)
-    colon:setVisible(0 == second % 2)
+    colon:setVisible(isShowSeconds or 0 == second % 2)
     minuteTens:setIndex(minute / 10)
     minuteOnes:setIndex(minute % 10)
     secondTens:setIndex(second / 10)
@@ -81,4 +82,7 @@ function update()
     date[8]:setIndex(year % 10)
 
     switcher:selectCollection(face:getCurrentThemeIndex())
+
+    secondOnes:setVisible(isShowSeconds)
+    secondTens:setVisible(isShowSeconds)
 end

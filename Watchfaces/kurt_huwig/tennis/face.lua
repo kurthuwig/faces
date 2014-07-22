@@ -158,4 +158,9 @@ function update()
     playfield:setColor(COLOR)
 
     face:setBackgroundColor(BACKGROUND_COLORS[face:getCurrentThemeIndex() + 1])
+
+    local isShowSeconds = deviceStatus:isShowSeconds()
+    leftRacket:setVisible(isShowSeconds)
+    rightRacket:setVisible(isShowSeconds)
+    ball:setVisible(isShowSeconds)
 end

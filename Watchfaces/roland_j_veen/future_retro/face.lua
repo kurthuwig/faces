@@ -92,4 +92,7 @@ function update()
         dateTens:setVisible(false)
         dateOnes:setVisible(false)
     end
+
+    secondHand      :setVisible(deviceStatus:isShowSeconds())
+    secondHandShadow:setVisible(deviceStatus:isShowSeconds())
 end

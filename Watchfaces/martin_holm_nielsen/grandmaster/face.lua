@@ -14,8 +14,11 @@ function textLayer(canvas)
         string.upper(DateFormat:format("EEE dd", time)),
         119, 179)
     font:drawCentered(canvas,
-        DateFormat:format("kk:mm:ss", time),
-        119, 197)
+                      DateFormat:format(deviceStatus:isShowSeconds()
+                                            and "kk:mm:ss"
+                                            or "kk:mm",
+                                        time),
+                      119, 197)
     local missedCalls = deviceStatus:getMissedCalls()
     if 0 < missedCalls then
         font:drawLeftAligned(canvas,
@@ -153,4 +156,7 @@ function update()
     end
 
     switcher:selectCollection(face:getCurrentThemeIndex())
+
+    secondHand      :setVisible(deviceStatus:isShowSeconds())
+    secondHandShadow:setVisible(deviceStatus:isShowSeconds())
 end

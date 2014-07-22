@@ -21,13 +21,18 @@ function textLayer(canvas)
     coda57:setColor(color)
 
     local format24 = deviceStatus:is24HourFormat()
-    local formatString = format24 and "kk:mm:ss" or "hh:mm:ss"
+    local formatString
+    if deviceStatus:isShowSeconds() then
+        formatString = format24 and "kk:mm:ss" or "hh:mm:ss"
+    else
+        formatString = format24 and "kk:mm" or "hh:mm"
+    end
     local timeString = DateFormat:format(formatString, time)
             .. (((not format24) and 12 < hour) and "." or "")
     coda26:drawCentered(canvas,
-        DateFormat:format("EEE d. MMM yyyy", time),
-        120, 20)
-    coda57:drawCentered(canvas, timeString,  120, 120)
+                        DateFormat:format("EEE d. MMM yyyy", time),
+                        120, 30)
+    coda57:drawCentered(canvas, timeString,  120, 130)
     coda26:drawCentered(canvas, "LinuxChef", 120, 220)
 end
 

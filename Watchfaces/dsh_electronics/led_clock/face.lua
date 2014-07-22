@@ -94,7 +94,12 @@ function update()
     date[5]:setIndex(year / 10)
     date[6]:setIndex(year % 10)
 
+    local isShowSeconds = deviceStatus:isShowSeconds()
     lowerRing:setRotation(second < 30 and 0 or 180)
     halfDisk:setRotation(360 / 60 * (second + 1))
-    upperRing:setVisible(30 <= second)
+    upperRing:setVisible(isShowSeconds and 30 <= second)
+
+    secondTens:setVisible(isShowSeconds)
+    secondOnes:setVisible(isShowSeconds)
+    lowerRing:setVisible(isShowSeconds)
 end

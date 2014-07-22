@@ -79,4 +79,7 @@ function update()
     for i = 1, 5 do
         wifi[i]:setVisible(i <= wifiLevel)
     end
+
+    secondHand      :setVisible(deviceStatus:isShowSeconds())
+    secondHandShadow:setVisible(deviceStatus:isShowSeconds())
 end

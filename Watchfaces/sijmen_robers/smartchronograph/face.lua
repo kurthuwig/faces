@@ -104,4 +104,6 @@ function update()
     end
 
     switcher:selectCollection(face:getCurrentThemeIndex())
+
+    secondHand:setVisible(deviceStatus:isShowSeconds())
 end

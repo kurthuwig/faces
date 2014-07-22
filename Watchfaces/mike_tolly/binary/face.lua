@@ -33,8 +33,10 @@ function binaryLayer(canvas)
     drawBinary(canvas, hour   % 10, 4,  42)
     drawBinary(canvas, minute / 10, 3,  82)
     drawBinary(canvas, minute % 10, 4, 122)
-    drawBinary(canvas, second / 10, 3, 162)
-    drawBinary(canvas, second % 10, 4, 202)
+    if deviceStatus:isShowSeconds() then
+      drawBinary(canvas, second / 10, 3, 162)
+      drawBinary(canvas, second % 10, 4, 202)
+    end
 end
 
 function init()

@@ -82,4 +82,6 @@ function update()
     secondHand:setRotation(360 / 60 * second)
     hourHandBackdrop  :setRotation(360 / 12 * (hour + minute / 60))
     minuteHandBackdrop:setRotation(360 / 60 * (minute + second / 60))
+
+    secondHand:setVisible(deviceStatus:isShowSeconds())
 end

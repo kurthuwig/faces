@@ -129,12 +129,20 @@ function update()
     local second = time:get(Calendar.SECOND)
     local millisecond = time:get(Calendar.MILLISECOND)
 
+    local isShowSeconds = deviceStatus:isShowSeconds()
     setVisibility(hourTens, math.floor(hour / 10))
     setVisibility(hourOnes, hour % 10)
     setVisibility(minuteTens, math.floor(minute / 10))
     setVisibility(minuteOnes, minute % 10)
-    setVisibility(secondTens, math.floor(second / 10))
-    setVisibility(secondOnes, second % 10)
+    setVisibility(secondTens, isShowSeconds and math.floor(second / 10) or 0)
+    setVisibility(secondOnes, isShowSeconds and second % 10 or 0)
+
+    hourTensDrop:setVisible(isShowSeconds)
+    hourOnesDrop:setVisible(isShowSeconds)
+    minuteTensDrop:setVisible(isShowSeconds)
+    minuteOnesDrop:setVisible(isShowSeconds)
+    secondTensDrop:setVisible(isShowSeconds)
+    secondOnesDrop:setVisible(isShowSeconds)
 
     setDropPosition(hourTensDrop,
                     millisecond,

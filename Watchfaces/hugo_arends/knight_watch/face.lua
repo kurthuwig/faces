@@ -10,12 +10,13 @@ end
 
 function textLayer(canvas)
     bigDigits:drawLeftAligned(canvas,
-        DateFormat:format("kk:mm", time),
-        40, 98)
-    smallDigits:drawLeftAligned(canvas,
-        DateFormat:format("ss", time),
-        165, 98)
-
+                              DateFormat:format("kk:mm", time),
+                              40, 98)
+    if deviceStatus:isShowSeconds() then
+        smallDigits:drawLeftAligned(canvas,
+                                    DateFormat:format("ss", time),
+                                    165, 98)
+    end
 end
 
 function init()

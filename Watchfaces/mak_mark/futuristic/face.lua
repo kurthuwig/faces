@@ -12,7 +12,9 @@ COLOR = 0xff17eded
 
 function customLayer(canvas)
     font:drawCentered(canvas, DateFormat:format("kk:mm", time), 120, 127)
-    font:drawCentered(canvas, DateFormat:format("ss", time), 120, 164)
+    if deviceStatus:isShowSeconds() then
+        font:drawCentered(canvas, DateFormat:format("ss", time), 120, 164)
+    end
 end
 
 function init()
@@ -51,4 +53,6 @@ function update()
     hourHand  :setRotation(360 / 12 * (hour + minute / 60))
     minuteHand:setRotation(360 / 60 * (minute + second / 60))
     secondHand:setRotation(360 / 60 * second)
+
+    secondHand:setVisible(deviceStatus:isShowSeconds())
 end

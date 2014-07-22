@@ -102,4 +102,6 @@ function update()
             and COLOR_INACTIVE or COLOR_ACTIVE)
     emailNotification:setColor(0 == deviceStatus:getUnreadGMail()
             and COLOR_INACTIVE or COLOR_ACTIVE)
+
+    secondHand:setVisible(deviceStatus:isShowSeconds())
 end
