@@ -14,6 +14,7 @@ After you have bought the app, de-select **Switch face every 15 seconds** and se
 After installation, all graphics and the watch logic come from the APK itself.
 Let's change this and alter the face.
 It's best if you connect your Android device with a USB cable to your computer and mount the SD card.
+Clone the [Git repository](https://github.com/kurthuwig/faces.git) or - if you don't know what "cloning a Git repository" means - download the [ZIP archive of the project](https://github.com/kurthuwig/faces/archive/master.zip) and unpack it.
 Copy the `Watchfaces` folder to the top-level directory of your SD card folder on your Android device,
 keeping the folder structure instact.
 Don't worry, even if you don't have a physical SD card in your device, every Android device has at least an emulated SD card.
