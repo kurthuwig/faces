@@ -18,6 +18,12 @@ function textLayer(canvas)
             "Double tap to open options",
             122, 110,
             230)
+    elseif 3 == screenIndex then
+        local second = time:get(Calendar.SECOND)
+        systemFont:drawCenteredWrapped(canvas,
+            "Unlicensed demo version",
+            122, 50 + 12 * (second % 10),
+            230)
     end
 end
 
@@ -41,9 +47,14 @@ function init()
         atlas:createSprite("fonts"))
 
     face:add(textLayer)
-    face:setBackgroundColor(0xa0000000)
 end
 
 function update()
     screens:selectCollection(face:getCurrentThemeIndex())
+    local screenIndex = screens:getSelectedCollectionIndex()
+    if 3 ~= screenIndex then
+        face:setBackgroundColor(0xa0000000)
+    else
+        face:setBackgroundColor(0x00000000)
+    end
 end
