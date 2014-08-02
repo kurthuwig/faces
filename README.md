@@ -8,7 +8,7 @@ To do this, just place the directory `Watchfaces` onto the SD card, maintaining 
 Documentation
 =============
 
-There is a [Tutorial](docs/tutorial.md) on how to design your own watch faces.
+There is a [Tutorial](docs/tutorial.md) on how to design your own watch faces as well as the [API-Reference](docs/api-reference.md) that describes all functions.
 
 Copyright
 =========
