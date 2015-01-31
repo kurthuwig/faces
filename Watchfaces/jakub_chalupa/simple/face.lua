@@ -17,7 +17,7 @@ function textLayer(canvas)
     infoFont:drawCentered(canvas,
         string.upper(DateFormat:format("EEE", time)),
         195, 28)
-    infoFont:drawCentered(canvas, DateFormat:format("MM", time), 195, 50)
+    infoFont:drawCentered(canvas, DateFormat:format("dd", time), 195, 50)
     if weather ~= nil then
         infoFont:drawCentered(canvas,
             weather.temperature.current .. " C",
