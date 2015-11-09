@@ -515,3 +515,13 @@ To open the SMS app when you touch the top left corner of the face, add this cod
                              function () OS:startSMSApp() end)
 
 As you can see, you can use embedded functions to keep the code short and close to the usage.
+
+Logging to the system log
+-------------------------
+
+If you need some debugging support in your watchface, you can send your logs to Android's system log by using `OS:log`:
+
+    OS:log(OS.LOG_PRIORITY_DEBUG, "Tennis", "Ball: " .. ballX .. "/" .. ballY)
+    OS:log(OS.LOG_PRIORITY_DEBUG,
+           "Tennis",
+           "Rackets: " .. leftRacketY .. "/" .. rightRacketY)

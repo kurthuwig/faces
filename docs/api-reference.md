@@ -312,3 +312,18 @@ Opens the system's call log.
 ### `OS:startSendMessageApp()`
 
 Starts the app that allows to send a message.
+
+### `OS:log(priority, tag, message)`
+
+Logs to Android's system log.
+
+The priority must be one of
+
+ * LOG_PRIORITY_VERBOSE
+ * LOG_PRIORITY_DEBUG
+ * LOG_PRIORITY_INFO
+ * LOG_PRIORITY_WARN
+ * LOG_PRIORITY_ERROR
+ * LOG_PRIORITY_ASSERT
+
+The tag and message may be arbitrary strings.
