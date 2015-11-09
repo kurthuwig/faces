@@ -116,6 +116,7 @@ function update()
         ballY = PLAYFIELD_Y_MIN + (PLAYFIELD_Y_MIN - ballY)
         speedY = -speedY
     end
+    ballY = math.max(PLAYFIELD_Y_MIN, math.min(PLAYFIELD_Y_MAX, ballY))
 
     local ballX =
     (RIGHT_RACKET_X - LEFT_RACKET_X - RACKET_WIDTH - BALL_SIZE)
