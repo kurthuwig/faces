@@ -240,6 +240,9 @@ Returns the signal level of the current wifi connection (0 - 100).
 
 Returns true if the clock is set to 24h display and false if set to 12h, i.e. using "am/pm".
 
+### 'deviceStatus:getAPILevel()
+Returns the Android API level that can be used to determine supported features.
+
 `weather` methods
 -----------------
 
