@@ -500,11 +500,6 @@ If you have an indexed graphic, you can also initialize the layercollection in a
         switcher:add(i, atlas:createSprite("wallpaper", i))
     end
 
-Adding views
-------------
-
-Instead of 
-
 Adding touch response
 ---------------------
 
