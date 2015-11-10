@@ -60,13 +60,16 @@ function textLayer(canvas)
 
     if 0 == minute then
         secondLine = "O'"
-        thirdLine = "CLOCK"
-    elseif minute < 13 then
+        thirdLine  = "CLOCK"
+    elseif minute < 10 then
         secondLine = "O'"
-        thirdLine = NUMBERS[minute + 1]
+        thirdLine  = NUMBERS[minute + 1]
+    elseif minute < 13 then
+        secondLine = NUMBERS[minute + 1]
+        thirdLine  = ""
     elseif minute < 20 then
         secondLine = NUMBERS[minute + 1]
-        thirdLine = "TEEN"
+        thirdLine  = "TEEN"
     else
         secondLine = TENS[math.floor(minute / 10) + 1]
         local minuteOne = minute % 10
