@@ -62,7 +62,7 @@ function textLayer(canvas)
         secondLine = "O'"
         thirdLine = "CLOCK"
     elseif minute < 13 then
-        secondLine = "-"
+        secondLine = "O'"
         thirdLine = NUMBERS[minute + 1]
     elseif minute < 20 then
         secondLine = NUMBERS[minute + 1]
@@ -70,7 +70,7 @@ function textLayer(canvas)
     else
         secondLine = TENS[math.floor(minute / 10) + 1]
         local minuteOne = minute % 10
-        thirdLine = 0 == minuteOne and "-" or NUMBERS[minuteOne + 1]
+        thirdLine = 0 == minuteOne and "" or NUMBERS[minuteOne + 1]
     end
 
     font:drawCentered(canvas, firstLine,  120, 90)
