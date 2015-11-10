@@ -137,13 +137,6 @@ function update()
     setVisibility(secondTens, isShowSeconds and math.floor(second / 10) or 0)
     setVisibility(secondOnes, isShowSeconds and second % 10 or 0)
 
-    hourTensDrop:setVisible(isShowSeconds)
-    hourOnesDrop:setVisible(isShowSeconds)
-    minuteTensDrop:setVisible(isShowSeconds)
-    minuteOnesDrop:setVisible(isShowSeconds)
-    secondTensDrop:setVisible(isShowSeconds)
-    secondOnesDrop:setVisible(isShowSeconds)
-
     setDropPosition(hourTensDrop,
                     millisecond,
                     hour / 10,
@@ -191,4 +184,13 @@ function update()
         batteryColor = COLOR_GREEN
     end
     setColor(batteryBlocks, batteryColor)
+
+    if not isShowSeconds then
+        hourTensDrop:setVisible(false)
+        hourOnesDrop:setVisible(false)
+        minuteTensDrop:setVisible(false)
+        minuteOnesDrop:setVisible(false)
+        secondTensDrop:setVisible(false)
+        secondOnesDrop:setVisible(false)
+    end
 end
